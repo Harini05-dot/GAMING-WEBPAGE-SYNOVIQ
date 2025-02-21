@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Synodiq Technologies</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header>
+    <nav>
+      <div class="logo">Synodiq Technologies</div>
+      <ul class="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="sign-up.html">Sign-in</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+  
+  <main>
+    <section class="hero" >
+      <div class="video-background">
+        <video autoplay muted loop id="background-video">
+          <source src="assests/animation-video.mp4.mp4" type="video/mp4">
+          Your browser does not support the video tag.
+        </video>
+      </div>
+      <div class="hero-content">
+        <h1>Welcome to Synodiq Technologies</h1>
+        <p>Innovating Gaming & Software Development</p>
+        <a href="#gaming" class="btn">Explore</a>
+      </div>
+    </section>
+
+    <section class="content-section" id="gaming">
+      <h2>Gaming Innovations</h2>
+      <p>Experience ultra-realistic visuals like never before.</p>
+      <img src="./assests/nextgen.jpg" alt="Next-Gen Graphics">
+      <img src="assests/imersive.jpg" alt="Immersive Gameplay">
+      <img src="assests/2.jpg" alt="Immersive Gameplay">
+      <div class="grid-container">
+        <div class="grid-item">
+          <img src="./assests/nextgen.jpg" alt="Next-Gen Graphics">
+          <h3>Next-Gen Graphics</h3>
+          <p>Experience ultra-realistic visuals like never before.</p>
+        </div>
+        <div class="grid-item">
+          <img src="assests/imersive.jpg" alt="Immersive Gameplay">
+          <h3>Immersive Gameplay</h3>
+          <p>Get lost in captivating storylines and dynamic gameplay.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="content-section" id="software">
+      <h2>Software Technology</h2>
+      <div class="grid-container">
+        <div class="grid-item">
+          <h3>AI & Machine Learning</h3>
+          <p>Revolutionizing industries with cutting-edge AI solutions.</p>
+        </div>
+        <div class="grid-item">
+          <h3>Cloud Computing</h3>
+          <img src="assests/cloud.jpg" alt="Cloud Computing">
+          <p>Empowering businesses with seamless cloud integration.</p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Chatbot Section (Positioned in the right corner) -->
+  <div id="chatbot" class="chatbot-container">
+    <div class="chatbot-header">
+      <h3>Chat with Us</h3>
+    </div>
+    <div class="chatbot-body" id="chatbot-body">
+      <div class="message bot-message">
+        <p>Hello! How can I assist you today?</p>
+      </div>
+    </div>
+    <input type="text" id="user-input" placeholder="Type a message..." class="chatbot-input">
+    <button id="send-btn" class="chatbot-send-btn">Send</button>
+  </div>
+
+  <footer>
+    <p>&copy; 2025 Synodiq Technologies | All Rights Reserved</p>
+  </footer>
+
+  <script src="index.js"></script>
+</body>
+</html>

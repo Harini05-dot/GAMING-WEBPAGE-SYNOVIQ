@@ -1,0 +1,118 @@
+/* sign-up.css */
+
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('assests/person-engaged-immersive-gaming-experience-dimly-lit-room-evening-hours_1315872-10043.avif'); /* Background image for the entire page */
+    background-size: cover; /* Makes the image cover the entire body */
+    background-position: center; /* Centers the background image */
+    background-attachment: fixed; /* Keeps the background fixed while scrolling */
+    margin: 0;
+    padding: 0;
+    color: white; /* Default text color for readability */
+}
+
+h1 {
+    text-align: center;
+    font-size: 3rem;
+    color: #fff;
+    margin-top: 20px;
+    font-family: 'Courier New', monospace; /* Font for the header to match the home page style */
+}
+
+.signup-form {
+    background: rgba(0, 0, 0, 0.7); /* Semi-transparent background for contrast */
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5);
+    width: 100%;
+    max-width: 400px;
+    margin: 50px auto;
+    text-align: center;
+    color: white;
+}
+
+h2 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+input, select {
+    width: 100%;
+    padding: 12px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 1rem;
+    background-color: rgba(255, 255, 255, 0.8); /* Slightly transparent background for inputs */
+    color: #333; /* Dark text color for inputs */
+}
+
+input[type="password"], input[type="email"], input[type="text"], input[type="number"] {
+    font-family: 'Courier New', monospace;
+}
+
+select {
+    font-family: 'Arial', sans-serif;
+}
+
+button {
+    width: 100%;
+    padding: 12px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1.1rem;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+.terms {
+    font-size: 0.9rem;
+    color: #ddd;
+    margin-top: 10px;
+}
+
+.additional-links {
+    margin-top: 20px;
+}
+
+.additional-links a {
+    color: #4CAF50;
+    text-decoration: none;
+    font-size: 0.9rem;
+    margin: 5px 0;
+    display: block;
+}
+
+.additional-links a:hover {
+    text-decoration: underline;
+}
+
+.device-note {
+    text-align: center;
+    font-size: 1rem;
+    margin-top: 20px;
+    color: #fff;
+}
+
+/* Style to indicate validation errors */
+input:invalid {
+    border-color: red;
+}
+
+input:valid {
+    border-color: green;
+}
+
+/* Full-page background styling */
+body {
+    min-height: 100vh; /* Ensure the body covers the full screen height */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
